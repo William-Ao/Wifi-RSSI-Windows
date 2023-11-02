@@ -1,0 +1,1 @@
+Get-Service wlansvc | Restart-Service -Force
