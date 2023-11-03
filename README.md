@@ -1,6 +1,6 @@
 # RSSI Python module
 
-Based on Juan Antonio Villagomez's existing RSSI Python library, adapted for Windows.
+Based on Juan Antonio Villagomez's existing RSSI Python library, adapted for Windows. In Linux utilizing the iwlist command with sudo forces a new scan of network devices, while on Windows a restart of the wlansvc service through Powershell must be done every time. This library attempts to automate that process.
 
 Upcoming changes/features
 - [ ] Finish implementing baseline scanning and scraping of WAP data. 
