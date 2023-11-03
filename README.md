@@ -45,7 +45,7 @@ The NumPy library will need to be installed, before using this package. We will 
 
 The RSSI package can be installed by cloning this GitHub repo. Future releases will include a pip package.
 ```
-git clone https://github.com/jvillagomez/rssi_module.git
+git clone https://github.com/William-Ao/winRSSI.git
 ```
 ### Classes
 
