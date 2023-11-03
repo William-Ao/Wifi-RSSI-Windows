@@ -29,7 +29,7 @@ class can NOT be used, without the use of THREE or more known accesspoints (WIP)
 
 The algorithm used in this module is based off of 'Indoor Positioning Techniques using RSSI from Wireless Devices' by Asif Ahmed Sohan et al. https://ieeexplore.ieee.org/document/9038591
 
-I'm building this library just to fulfill the needs of Windows users who may want to play around with RSSI localization but don't have a suitable Linux device to do so. I discovered during a Hackathon that the VM I was running didn't allow for scanning of networks on the virtual network card, so my team was stuck with a very hacked together solution that just pulled cached RSSI values. While this implementation isn't very elegant due to operating system limitations, I hope this library will be helpful for someone.
+I'm building this library just to fulfill the needs of Windows users who may want to play around with RSSI localization but don't have a suitable Linux device to do so. I discovered during a Hackathon that the VM I was running didn't allow for scanning of networks on the virtual network card, so my team was stuck with a very hacked together solution that just pulled cached RSSI values. While this implementation isn't very elegant due to operating system limitations, I hope this library will be helpful for someone playing around with Wifi based localization. 
 
 ## Getting Started
 
