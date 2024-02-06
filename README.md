@@ -9,7 +9,7 @@ Upcoming changes/features
 - [ ] Create Pip package
 - [ ] Create examples
 
-Feature resquests and recoomendations are welcome!
+Feature requests and recoomendations are welcome!
 
 From Villagomez's Readme: "With IoT projects at an all time high, there is a continuous need for positioning and localization systems in places where 
 GPS localiztion is not available. RSSI-based localization offers the ability to find an unknown position using the 
