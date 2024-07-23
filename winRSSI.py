@@ -1,6 +1,8 @@
 import subprocess
+import elevatePS
 
 name = "win-rssi"
+filePath = 'C:\Users\William Ao\Github\Wifi-RSSI-Windows\elevate.ps1'  #path to elevate powershell script
 
 from subprocess import Popen, PIPE
 import numpy
@@ -30,3 +32,5 @@ class RSSI_Scan(object):
                     ssids[count]["BSSID"] = splitoutput[i + 4].split()[2]
                     ssids[count]["Signal"] = splitoutput[i + 5].split()[2]
                     ssids[count]["Channel"] = splitoutput[i + 7].split()[2]
+
+        elevatePS.netshRefresh(filePath)
